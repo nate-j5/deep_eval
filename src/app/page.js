@@ -7,36 +7,35 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { GitHub, Twitter } from "lucide-react";
 
 export default function Home() {
   // Updated basketball icons array to include the schools, sport, and year
   const basketballIcons = [
     {
       name: "West Florida vs Valdosta State",
-      sport: "Men's Basketball",
+      sport: "Men&apos;s Basketball", // Fixed the apostrophe here
       year: 2014,
     },
     {
       name: "Lewis vs Wisconsin-Parkside",
-      sport: "Women's Basketball",
+      sport: "Women&apos;s Basketball", // Fixed the apostrophe here
       year: 2016,
     },
     {
       name: "Roosevelt University vs Mckendree",
-      sport: "Men's Basketball",
+      sport: "Men&apos;s Basketball", // Fixed the apostrophe here
       year: 2018,
     },
     {
       name: "West Florida vs Central Florida",
-      sport: "Men's Basketball",
+      sport: "Men&apos;s Basketball", // Fixed the apostrophe here
       year: 2017,
     },
     {
       name: "South-Illinois Edwardsville vs Loyola-Chicago",
-      sport: "Men's Basketball",
+      sport: "Men&apos;s Basketball", // Fixed the apostrophe here
       year: 2018,
-    },
+    },    
   ];
 
   return (
