@@ -46,7 +46,7 @@ export default function Home() {
             Evaluate Basketball Offense
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Analyze and improve your team's offensive performance
+            {`Analyze and improve your team's offensive performance`}
           </p>
         </div>
 
