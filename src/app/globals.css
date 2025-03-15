@@ -12,12 +12,47 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Responsive styles for smaller screens */
+@media (max-width: 640px) {
+  .text-3xl {
+    font-size: 2rem; /* Adjust heading size for small screens */
+  }
+
+  .text-lg {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .aspect-video {
+    aspect-ratio: 16/9; /* Maintain aspect ratio for mobile */
+  }
+
+  .p-8 {
+    padding: 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .text-xl {
+    font-size: 1.25rem; /* Further reduce size on small phones */
+  }
+
+  .flex {
+    flex-direction: column; /* Stack flex elements vertically */
+  }
+
+  .sm\\:text-4xl {
+    font-size: 2rem;
+  }
+
+  .sm\\:w-auto {
+    width: auto;
+  }
+}
+
 
 body {
   background: var(--background);
